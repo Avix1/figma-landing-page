@@ -11,6 +11,7 @@ export const Header = styled.header`
     align-items: center;
     justify-content: space-between;
     padding: 0 2.5rem;
+
     @media (max-width: 480px) {
         display: flex;
         justify-content: normal;
@@ -38,16 +39,16 @@ export const NavBar = styled.nav`
 export const BlackButton = styled.button`
     width: 11.25rem;
     height: 4.063rem;
-    border: 1px solid ${Colors.second};
-    color: ${Colors.light};
-    background-color: ${Colors.dark};
+    border: 1px solid var(--second);
+    color: var(--light);
+    background-color: var(--dark);
     font-size: 1.07rem;
     cursor: pointer;
     transition: 0.4s;
 
     &:hover {
-        color: ${Colors.second};
-        border: 1px solid ${Colors.first};
+        color: var(--second);
+        border: 1px solid var(--first);
     }
 `;
 
@@ -62,8 +63,8 @@ export const LoginButton = styled.button`
     transition: 0.4s;
 
     &:hover {
-        color: ${Colors.second};
-        border: 1px solid ${Colors.first};
+        color: var(--second);
+        border: 1px solid var(--first);
     }
 
     @media (max-width: 480px) {
@@ -106,21 +107,21 @@ export const MenuLogo = styled.img.attrs({ src: Menu })`
 export const PurpleButton = styled.button`
     width: 11.25rem;
     height: 3.25rem;
-    border: 1px solid ${Colors.first};
-    color: ${Colors.light};
-    background-color: ${Colors.first};
+    border: 1px solid var(--first);
+    color: var(--light);
+    background-color: var(--first);
     font-size: 1.07rem;
     cursor: pointer;
     transition: 0.4s;
 
     &:hover {
-        color: ${Colors.second};
-        border: 1px solid ${Colors.second};
+        color: var(--second);
+        border: 1px solid var(--second);
     }
 `;
 
 export const SectionText = styled.p`
-    color: ${Colors.second};
+    color: var(--second);
     font-size: 1.25rem;
     font-weight: 400;
     display: flex;
@@ -130,7 +131,7 @@ export const SectionText = styled.p`
 export const SectionTitle = styled.h1`
     font-size: 3.25rem;
     font-weight: 400;
-    color: ${Colors.second};
+    color: var(--second);
     display: flex;
     justify-content: center;
     margin-top: 1.3rem;
