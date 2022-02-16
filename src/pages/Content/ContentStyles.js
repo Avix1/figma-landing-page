@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Colors from "../../Colors";
 import { motion } from "framer-motion";
 
 export const AboutSection = styled(motion.section)`
@@ -14,13 +13,13 @@ export const Card = styled.div`
     width: 29.75rem;
     min-height: 35.25rem;
     max-height: 35.25rem;
-    background-color: ${Colors.second};
+    background-color: var(--second);
     border-radius: 0.625rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
+
     @media (max-width: 480px) {
         width: 21.75rem;
     }
@@ -35,7 +34,7 @@ export const TitleCard = styled.h1`
 export const TextCard = styled.p`
     margin: 0;
     font-size: 1rem;
-    color: ${Colors.grey};
+    color: var(--grey);
     margin-bottom: 4.375rem;
 `;
 

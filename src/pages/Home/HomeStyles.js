@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import homeBackground from "../../assets/homeBackground.png";
 import { motion } from "framer-motion";
-import Colors from "../../Colors";
+
 
 export const HomeSection = styled(motion.section)`
     background-image: url(${homeBackground});
@@ -44,11 +44,11 @@ export const WrapperMainTitle = styled.div`
 `;
 
 export const MainTitle = styled.h1`
-    color: ${Colors.second};
+    color: var(--second);
     font-size: 5rem;
     font-weight: 400;
     margin: 0;
-    
+
     @media (max-width: 480px) {
         font-size: 3rem;
     }

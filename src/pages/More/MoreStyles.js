@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Colors from "../../Colors";
+
 import { motion } from "framer-motion";
 import FeatureBg from "../../assets/FeatureBg.png";
 import FeatureBg2 from "../../assets/FeatureBg2.png";
@@ -38,7 +38,7 @@ export const WrapperContact = styled.div`
 
 export const ContactText = styled.p`
     font-size: 0.8rem;
-    color: ${Colors.second};
+    color: var(--second);
 `;
 
 export const ContactImg = styled.img`
@@ -85,7 +85,7 @@ export const Feature = styled.div`
     width: 65rem;
     height: 20rem;
     margin-top: 3.8rem;
-    background-color: ${Colors.darkGrey};
+    background-color: var(--darkGrey);
     border-radius: 2rem;
     padding-left: 5.8rem;
     display: flex;
@@ -114,7 +114,7 @@ export const Feature = styled.div`
 export const FeatureTitle = styled.h1`
     font-size: 3rem;
     font-weight: 400;
-    color: ${Colors.second};
+    color: var(--second);
     display: flex;
     justify-content: center;
     margin-top: 0;

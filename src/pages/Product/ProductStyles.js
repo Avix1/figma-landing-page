@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import featuresFirst from "../../assets/featuresFirst.png";
 import featuresSecond from "../../assets/featuresSecond.png";
-import Colors from "../../Colors";
 import { motion } from "framer-motion";
 
 export const FeaturesImg = styled.img.attrs((props) => ({ src: props.src }))`
@@ -89,13 +88,13 @@ export const FeaturesDivTitle = styled.div`
 `;
 
 export const FeaturesTitle = styled.h1`
-    color: ${Colors.second};
+    color: var(--second);
     font-size: 1.25rem;
     margin-left: 0.938rem;
 `;
 
 export const FeaturesText = styled.p`
     font-size: 1rem;
-    color: ${Colors.second};
+    color: var(--second);
     margin: 0;
 `;

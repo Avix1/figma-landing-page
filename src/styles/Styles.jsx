@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Colors from "../Colors";
 import LogoSrc from "../assets/logo.png";
 import Menu from "../assets/Icons/menu.png";
 
